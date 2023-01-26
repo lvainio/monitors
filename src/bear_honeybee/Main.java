@@ -36,3 +36,6 @@ class Main {
         }
     }
 }
+
+// Fairness
+// My program is not ensuring 100% fairness. It is up to the scheduler to decide which threads get to run when and it might happen that some threads get to run fewer times than others. With that said, when running this program with a few threads and also having them sleep for a set amount of time it will make sure that every thread has the time to run every time causing no thread starvation. After some testing it seems that every thread gets to run pretty much the same amount of times although not a 100% of the time.
