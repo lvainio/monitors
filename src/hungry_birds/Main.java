@@ -34,5 +34,6 @@ class Main {
         for (int i = 0; i < babies.length; i++) {
             babies[i].start();
         }
+       
     }
 }
